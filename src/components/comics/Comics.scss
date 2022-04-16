@@ -1,0 +1,35 @@
+.comics {
+    width: 225px;
+    height: 415px;
+    transition: transform 0.3s;
+    cursor: pointer;
+    &:hover {
+        transform: translateY(-10px);
+    }
+    &__img {
+        width: 100%;
+        filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25));
+    }
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        margin-top: 10px;
+    }
+    &__price {
+        color: rgba(0, 0, 0, 0.6);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 5px;
+    }
+    &__list {
+        margin-top: 45px;
+        display: flex;
+        justify-content: center;
+        gap: 67px;
+        flex-wrap: wrap;
+    }
+}
